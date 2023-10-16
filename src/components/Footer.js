@@ -5,13 +5,13 @@ import PropTypes from "prop-types";
 function Footer(props) {
     return(
         <div className="App-footer">
-            <p>{props.credits}</p>
+            <i>{props.credits}</i>
         </div>
     )
 }
 
 Footer.propTypes = {
-    credits: PropTypes.node,
+    credits: PropTypes.object,
 };
 
 export default Footer;
