@@ -27,7 +27,7 @@ class App extends Component {
     const footerCredits = "Derechos reservados © prj-mario-api-react - 2023";
 
     return (
-      <div className="App">
+      <div className="App App-container">
         <Banner title={bannerTop} />
         <Header />
         <Banner title={bannerBottom} />

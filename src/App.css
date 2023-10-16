@@ -4,6 +4,12 @@
   text-align: center;
 }
 
+.App-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -16,42 +22,47 @@
 }
 
 .App-header {
-  background-color: #989898;
+  background-color: #ff0000;
   min-height: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-header-logo {
-  height: 30vmin;
+  height: 24vmin;
   pointer-events: none;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .App-banner {
-  background-color: #b92b1b;
-  min-height: 64px;
+  background-color: #2b2929;
+  min-height: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+}
+
+.Banner-title {
+  font-size: calc(32px + 2vmin);
   font-family: "Catamaran", sans-serif;
+  font-kerning: calc(1px + 2vmin);
   font-weight: 900;
+  color: white;
 }
 
 .App-body {
   display: flex;
+  flex-grow: 1;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #dbdbdb;
+  background-color: #e6e6e6;
   font-size: calc(8px + 2vmin);
   font-family: "Catamaran", sans-serif;
   font-weight: 500;
@@ -71,7 +82,7 @@
 }
 
 .App-footer {
-  background-color: #282c34;
+  background-color: #ff0000;
   min-height: 64px;
   display: flex;
   flex-direction: column;

@@ -54,12 +54,10 @@ Body.propTypes = {
   };
 
 Body.defaultProps = {
-    data: PropTypes.arrayOf(
-        PropTypes.shape({
-            id: 0,
-            name: "🎨"
-        })
-    ),
+    data: [
+        { id: 0, name: '🎨' },
+        // Otros elementos por defecto
+      ],
 };
 
 export default Body;

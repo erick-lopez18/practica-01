@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const Banner =(props)=> {
     return (
         <div className="App-banner">
-            <h1>{props.title}</h1>
+            <h1 className="Banner-title">{props.title}</h1>
         </div>
     );
 }
