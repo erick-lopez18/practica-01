@@ -20,8 +20,11 @@ class Body extends Component{
     render(){
         const { data, buttonText } = this.props;
         const { showAlert } = this.state;
+        const { defaultProps } = Body;
 
+        console.log(defaultProps);
         console.log(this.props);
+        console.log(this.defaultProps);
 
         return (
             <div className="App-body">
@@ -56,8 +59,10 @@ Body.propTypes = {
 Body.defaultProps = {
     data: [
         { id: 0, name: '🎨' },
+        { id: 1, name: 'Daniela'}
         // Otros elementos por defecto
       ],
+    buttonText: "Botón sorpresax"
 };
 
 export default Body;
